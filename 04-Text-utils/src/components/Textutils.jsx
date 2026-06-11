@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 const TextUtils = () => {
   const [text, setText] = useState("");
+  const [speed, setSpeed] = useState(0);
 
   const wordCount = text.trim().split(/\s+/).filter(Boolean).length;
   const readingTime = (wordCount / 200).toFixed(2);
@@ -33,19 +34,16 @@ const TextUtils = () => {
           Lowercase
         </button>
         <button
-            onClick={() => {
-           
-            }}
-            type="button"
-            className="btn btn-success m-1"
-          >
-            Reading Speed <i className="ri-dashboard-3-fill"></i>
-          </button>
-
-        <button
-          className="btn btn-danger"
-          onClick={() => setText("")}
+          onClick={() => {
+            setSpeed(((text.split("").length * 60) / 180).toFixed(2));
+          }}
+          type="button"
+          className="btn btn-success m-1"
         >
+          Reading Speed
+        </button>
+
+        <button className="btn btn-danger" onClick={() => setText("")}>
           Clear
         </button>
       </div>
@@ -63,7 +61,9 @@ const TextUtils = () => {
         <p>
           <strong>Words:</strong> {wordCount}
         </p>
-
+        <p>
+          <strong>Reading time-</strong> {speed}
+        </p>
       </div>
     </div>
   );
