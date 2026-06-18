@@ -1,16 +1,12 @@
-# React + Vite
+# Key Features of My React Portfolio Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My React Portfolio Project is a responsive web application designed to showcase my skills, projects, and personal information. The project includes a secure login system with email and password validation, allowing users to access the portfolio after successful authentication. React Router is used for seamless navigation between different pages such as Home, Skills, Projects, Contact, and About without reloading the application.
 
-Currently, two official plugins are available:
+The Skills section dynamically displays technologies like HTML, CSS, JavaScript, and React.js using reusable card components and the map() function. The Projects section showcases my major projects, including an E-Commerce Website, Quiz Application, and Book API Store, along with GitHub repository links. The Contact page provides a user-friendly form for visitors to send messages, while the About page highlights my background, learning journey, and career goals as a Full Stack Developer.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The project is built using React.js, JavaScript, Bootstrap, HTML, and CSS. It demonstrates key React concepts such as Components, Props, useState Hook, useNavigate Hook, Dynamic Rendering, and Component Reusability. Bootstrap is used to create a responsive and visually appealing user interface that works across mobile, tablet, and desktop devices.
 
-## React Compiler
+output: https://github.com/user-attachments/assets/aa649e1a-6a25-423c-9d89-01344c651678
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
