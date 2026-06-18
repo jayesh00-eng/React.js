@@ -1,0 +1,9 @@
+.nav-link:hover {
+  color: #fff;
+  background-color: black;
+  border-radius: 4px;
+  display: inline-flex;
+  justify-content: center;
+  text-align: center;
+}
+
