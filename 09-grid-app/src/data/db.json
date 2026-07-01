@@ -1,4 +1,26 @@
 {
-  "users": [],
+  "users": [
+    {
+      "name": "jayesh",
+      "role": "web",
+      "color": "#8f9e07",
+      "date": "30/06/2026",
+      "id": "UhOrBsbxM2U"
+    },
+    {
+      "name": "jayesh",
+      "role": "full stack",
+      "color": "#258a03",
+      "date": "30/06/2026",
+      "id": "5q8xx4rFGgQ"
+    },
+    {
+      "name": "okodrg",
+      "role": "wjehfj",
+      "color": "#afefa2",
+      "date": "30/06/2026",
+      "id": "YhIUi4JgtIg"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }

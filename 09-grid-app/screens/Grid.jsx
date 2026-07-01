@@ -11,7 +11,6 @@ export default function Grid() {
     fetchUsers();
   }, []);
 
-  // Random Color
   const getRandomColor = () => {
     return (
       "#" +
@@ -21,13 +20,13 @@ export default function Grid() {
     );
   };
 
-  // Get Users
+
   const fetchUsers = async () => {
     const res = await axios.get("http://localhost:3000/users");
     setUserList(res.data);
   };
 
-  // Add & Update
+
   const submitData = async () => {
     if (name === "" || role === "") {
     
