@@ -16,8 +16,14 @@ export default function Login() {
         email,
         password,
       });
-
-      router.push("/home");
+      localStorage.setItem(
+      "user",
+      JSON.stringify({
+        email,
+        password,
+      })
+    );
+     router.push("/home");
     } catch (error) {
       console.log(error);
     }
