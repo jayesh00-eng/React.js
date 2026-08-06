@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "2",
+      "email": "user@gmail.com",
+      "password": "123456"
+    },
+    {
+      "email": "sfsj",
+      "password": "bdgjbdg",
+      "id": "3hrtawa8ZR0"
+    },
+    {
+      "email": "jayeshpatiledu@gmail.com",
+      "password": "12345",
+      "id": "ODgFY1Akv5o"
+    },
+    {
+      "email": "jayeshpatiledu@gmail.com",
+      "password": "jay",
+      "id": "l4BKiA32bJg"
+    },
+    {
+      "email": "jayeshpatiledu@gmail.com",
+      "password": "jayesh",
+      "id": "TY87n0sYBGQ"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
