@@ -13,16 +13,16 @@ export default function Signin() {
   const navigate = useNavigate();
 
   const usernameRef = useRef();
-  const accountRef = useRef();
+  const passwordRef = useRef();
   const [userType, setUserType] = useState("");
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     const username = usernameRef.current.value.trim();
-    const accountNumber = accountRef.current.value.trim();
+    const password = passwordRef.current.value.trim();
 
-    if (!username || !accountNumber || !userType) {
+    if (!username || !password || !userType) {
       alert("Please fill all fields");
       return;
     }
@@ -33,16 +33,11 @@ export default function Signin() {
       const res = await axios.get("http://localhost:3000/users");
 
       const user = res.data.find((item) => {
-        const acc = String(
-          item.accountNumber ||
-          item.accountnumber ||
-          item.Accountnumber ||
-          ""
-        );
+        const pwd = String(item.password || "");
 
         return (
           item.username.trim() === username &&
-          acc === accountNumber &&
+          pwd === password &&
           item.userType === userType
         );
       });
@@ -53,7 +48,7 @@ export default function Signin() {
         navigate("/home");
       } else {
         dispatch(loginFailure("Invalid Details"));
-        alert("Invalid Username, Account Number or User Type");
+        alert("Invalid Username, Password or User Type");
       }
     } catch (error) {
       console.log(error);
@@ -96,12 +91,12 @@ export default function Signin() {
           </div>
 
           <div className="mb-3">
-            <label>Account Number</label>
+            <label>Password</label>
             <input
-              type="text"
+              type="password"
               className="form-control"
-              ref={accountRef}
-              placeholder="Enter Account Number"
+              ref={passwordRef}
+              placeholder="Enter Password"
             />
           </div>
 

@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "title": "samsung",
+      "price": "100000",
+      "description": "gsddh",
+      "category": "black",
+      "brand": "samson",
+      "id": "QhPGiwvh8Ow"
+    },
+    {
+      "title": "sGzf",
+      "price": "435",
+      "description": "dhzrhf",
+      "category": "zfhfh",
+      "brand": "gjxgf",
+      "rating": "5",
+      "id": "ZLzR-5WnPK8"
+    },
+    {
+      "title": "dfhfgthj",
+      "price": "5555",
+      "description": "zfdhf",
+      "category": "zryhdyr",
+      "brand": "zdrh",
+      "rating": "3",
+      "id": "DKmDNlq-AiQ"
+    },
+    {
+      "title": "jayesh",
+      "price": "367778",
+      "description": "DCvb",
+      "category": "zbxzx",
+      "brand": "xzfbzxfb",
+      "rating": "2",
+      "id": "gbRrEtEu1-8"
+    },
+    {
+      "title": "gfgm",
+      "price": "6757",
+      "description": "mhgfhfh",
+      "category": "hjfh",
+      "brand": ",kugg",
+      "id": "L6FPTAFo-jo"
+    },
+    {
+      "title": "i phone",
+      "price": "2000084",
+      "description": "sdkfhjshf",
+      "category": "sdjihf",
+      "brand": "apple",
+      "id": "EucYjzvX_Mk"
+    },
+    {
+      "title": "fchgh",
+      "price": "25454",
+      "description": "vgjhj",
+      "category": "gjhj",
+      "brand": "xfhg",
+      "id": "zi2b6hwQxRE"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

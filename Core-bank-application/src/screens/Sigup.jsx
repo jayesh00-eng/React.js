@@ -9,6 +9,7 @@ export default function Sigup() {
   const emailRef = useRef();
   const addressRef = useRef();
   const phoneRef = useRef();
+  const passwordRef = useRef();
 
   const [userType, setUserType] = useState("");
  
@@ -22,6 +23,7 @@ export default function Sigup() {
     const email = emailRef.current.value;
     const address = addressRef.current.value;
     const phoneno = phoneRef.current.value;
+    const password = passwordRef.current.value;
 
     if (!username || !email || !address || !phoneno || !userType) {
       alert("Fill all fields");
@@ -34,6 +36,7 @@ export default function Sigup() {
         email,
         address,
         phoneno,
+        password,
         userType,
       
       });
@@ -75,6 +78,14 @@ export default function Sigup() {
           <div className="mb-3">
             <label className="form-label">Email</label>
             <input type="email" className="form-control" ref={emailRef} />
+          </div>
+          <div className="mb-3">
+            <label className="form-label">Password</label>
+            <input
+              type="password"
+              className="form-control"
+              ref={passwordRef}
+            />
           </div>
 
           <div className="mb-3">

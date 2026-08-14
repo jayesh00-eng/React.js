@@ -3,13 +3,13 @@
     {
       "id": "1",
       "username": "vesuadmin",
-      "accountNumber": "12345",
+      "password": "12345",
       "userType": "vesu_admin"
     },
     {
       "id": "2",
       "username": "adajanadmin",
-      "accountNumber": "12345",
+      "password": "12345",
       "userType": "adajan_admin"
     },
     {
@@ -22,47 +22,28 @@
       "username": "jayesh",
       "email": "jayeshpatiledu@gmail.com",
       "address": "192, dindoli kharvasa road, Near shyam vilas society, Ruxmani park Surat City Surat Gujarat India, 394210",
-      "phoneno": "7096863392",
-      "userType": "user",
-      "accountNumber": "280301186",
-      "id": "30VgawmPO64"
-    },
-    {
-      "username": "jayesh",
-      "email": "jayeshpatiledu@gmail.com",
-      "address": "192, dindoli kharvasa road, Near shyam vilas society, Ruxmani park Surat City Surat Gujarat India, 394210",
       "phoneno": "07096863392",
+      "password": "jayesh",
       "userType": "user",
-      "accountNumber": "3979957682",
-      "id": "7MUh2VWGFDE"
-    },
-    {
-      "username": "dadu",
-      "email": "jayeshpatiledu@gmail.com",
-      "address": "192, dindoli kharvasa road, Near shyam vilas society, Ruxmani park Surat City Surat Gujarat India, 394210",
-      "phoneno": "07096863392",
-      "userType": "user",
-      "accountNumber": "7238401478",
-      "id": "93gWM3wyTm8"
-    },
-    {
-      "username": "vishal",
-      "email": "jay@gmail.com",
-      "address": "192, dindoli kharvasa road, Near shyam vilas society, Ruxmani park Surat City Surat Gujarat India, 394210",
-      "phoneno": "7096863392",
-      "userType": "user",
-      "accountNumber": 5379783780,
-      "id": "LqxHAgvTZcA"
-    },
-    {
-      "username": "jay",
-      "email": "jayeshpatiledu@gmail.com",
-      "address": "192, dindoli kharvasa road, Near shyam vilas society, Ruxmani park Surat City Surat Gujarat India, 394210",
-      "phoneno": "07096863392",
-      "userType": "user",
-      "accountNumber": 4706721446,
-      "id": "uriu-0a_ymE"
+      "id": "6XmDOJrVuHw"
     }
   ],
+  "accounts": [
+    {
+      "accountNumber": "12345",
+      "username": "vesuadmin",
+      "balance": 500000,
+      "branch": "Vesu",
+      "id": "7VuYQmx3vls"
+    },
+    {
+      "accountNumber": "12345",
+      "username": "adajanadmin",
+      "balance": 500000,
+      "branch": "Adajan",
+      "id": "XQQmOWdCkhg"
+    }
+  ],
+  "transactions": [],
   "$schema": "./node_modules/json-server/schema.json"
 }
