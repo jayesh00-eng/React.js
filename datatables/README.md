@@ -1,7 +1,7 @@
 Output: https://github.com/user-attachments/assets/7f3b4768-b40e-4798-9475-5d7ea49c9cb3
 
 Features
-➕ Add new products
+➕ Add new products</br>
 📋 Display products in a table
 ✏️ Edit and update products
 🗑️ Delete products
