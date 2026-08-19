@@ -1,14 +1,6 @@
 {
   "products": [
     {
-      "title": "samsung",
-      "price": "100000",
-      "description": "gsddh",
-      "category": "black",
-      "brand": "samson",
-      "id": "QhPGiwvh8Ow"
-    },
-    {
       "title": "sGzf",
       "price": "435",
       "description": "dhzrhf",
@@ -58,6 +50,14 @@
       "category": "gjhj",
       "brand": "xfhg",
       "id": "zi2b6hwQxRE"
+    },
+    {
+      "title": "i phone",
+      "price": "10500202",
+      "description": "dvghgd",
+      "category": "smart phone",
+      "brand": "apple",
+      "id": "Q04NXSNE5Nk"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
